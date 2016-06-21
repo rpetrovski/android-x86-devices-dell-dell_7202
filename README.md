@@ -11,8 +11,8 @@ To make iso:
 ```
 ###### 2. checkout this repository
 ```
- $ mkdir -p devices/dell/dell_7202
- $ git clone git@github.com:rpetrovski/android-x86-devices-dell-dell_7202.git devices/dell/dell_7202
+ $ mkdir -p device/dell/dell_7202
+ $ git clone git@github.com:rpetrovski/android-x86-devices-dell-dell_7202.git device/dell/dell_7202
 ```
 ###### 3. build iso image:
 ```
