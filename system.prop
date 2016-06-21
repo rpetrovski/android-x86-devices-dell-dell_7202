@@ -1,0 +1,3 @@
+ro.kernel.android.gps=ttyS2
+ro.kernel.android.gpsttybaud=9600
+ro.build.fingerprint=tada
