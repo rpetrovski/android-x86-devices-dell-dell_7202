@@ -14,7 +14,8 @@ To make iso:
  $ mkdir -p device/dell/dell_7202
  $ git clone git@github.com:rpetrovski/android-x86-devices-dell-dell_7202.git device/dell/dell_7202
 ```
-###### 3. build iso image:
+###### 3. get [uqmi](android-x86-external-uqmi)
+###### 4. build iso image:
 ```
  $ . build/envsetup.sh
  $ lunch dell_7202-userdebug
