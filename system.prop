@@ -1,2 +1,11 @@
 ro.kernel.android.gps=ttyS2
 ro.kernel.android.gpsttybaud=9600
+#ro.kernel.android.gpsexclnmea=GNGGA,GNGLL,GNGSA,GNRMC,GNVTG,GLGSV
+#ro.kernel.android.gpsexclnmea=GPGGA,GPGLL,GPGSA,GPRMC,GPVTG,GPGSV
+ro.kernel.android.gpsexclnmea=GPRMC,GNRMC
+
+sleep.earlysuspend=1
+sleep.state=mem
+
+poweroff.doubleclick=1
+

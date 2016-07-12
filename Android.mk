@@ -9,3 +9,8 @@
 #
 
 include $(call all-subdir-makefiles)
+
+#include hardware/intel/libsensors/dell_7202/Android.mk
+
+#$(error '$(TARGET_DEVICE)' '$(TARGET_PRODUCT_DEVICE)' '$(TARGET_BOARD_PLATFORM)' '$(BOARD_USE_PLATFORM_SENSOR_LIB)')
+

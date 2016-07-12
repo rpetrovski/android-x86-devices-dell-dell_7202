@@ -31,6 +31,7 @@ LOCAL_PREBUILT_JNI_LIBS := $$(addprefix @,$$(filter lib/$$(LOCAL_MODULE_TARGET_A
 include $$(BUILD_PREBUILT)
 
 ALL_DEFAULT_INSTALLED_MODULES += $$(LOCAL_INSTALLED_MODULE)
+
 endef
 
 $(foreach a,$(LOCAL_APPS),$(eval $(call include-app,$(a))))
